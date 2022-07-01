@@ -1,0 +1,101 @@
+.flex-container{
+    display: flex;
+    height: 150px;
+    border: 2px solid black;
+    max-width: 300px;
+}
+.item{
+    font-size: 24px;
+    height: 50%;
+    text-align: center;
+    width: 100px;
+    line-height: 50px;
+    min-width: 100px;
+}
+.nowrap{
+    flex-wrap: nowrap;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+.gray{
+    background-color: gray;
+}
+.orange{
+    background-color: orange;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.container{
+    max-width: 400px;
+    border: 1px solid black;
+    margin: 0;
+    display: flex;
+}
+.itemI{
+    background-color: pink;
+    margin: 5px;
+    text-align: center;
+    color: brown;
+}
+.flex-start{
+    justify-content: flex-start;
+}
+.flex-end{
+    justify-content: flex-end;
+}
+.center{
+    justify-content: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+}
+.container-align{
+    max-width: 350px;
+    border: 1px solid black;
+    display: flex;
+}
+.item-algn{
+    background-color: gold;
+    margin: 5px;
+    color: darkred;
+    text-align: center;
+    flex: 1;
+}
+.flex-align{
+    flex: 1;
+}
+.stretch{
+    align-items: stretch;
+}
+.start{
+    align-items: flex-start;
+}
+.end{
+    align-items: flex-end;
+}
+.baseline{
+align-items: baseline;
+}
+.column{
+    flex-direction: column;
+}
+.central{
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.central .item-algn{
+    flex: 0;
+    padding: 20px;
+}
